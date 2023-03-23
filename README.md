@@ -45,3 +45,18 @@ docker ps -a
 
 **Output**<br />
 c6574625a79a
+
+### 'docker logs' command to view the logs of a container
+```
+docker logs ec1713e3f7fd
+```
+**Output** <br />
+![Screenshot (28)](https://user-images.githubusercontent.com/65711565/227154974-5745b77a-cf58-4dc6-8c63-a715b94d7463.png)
+
+### 'docker inspect' command to view the details of a container
+```
+docker inspect finance_flask
+```
+**Output** <br />
+![Screenshot (29)](https://user-images.githubusercontent.com/65711565/227155543-aeac09c2-7bf2-462a-b6d4-b37cec610265.png)
+
