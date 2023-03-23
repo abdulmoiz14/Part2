@@ -132,3 +132,18 @@ docker rename ef8f745129be Finance
 ```
 **Output** <br />
 ![Screenshot (38)](https://user-images.githubusercontent.com/65711565/227175841-7627dea2-3553-44a8-85ed-590c836b11f6.png)
+
+### 16. 'docker wait' command to wait for a container to exit and then display its exit code
+```
+docker wait ef8f745129be
+```
+
+**use another terminal to stop the container**
+```
+docker stop ef8f745129be
+```
+
+**Output** <br />
+![Screenshot (39)](https://user-images.githubusercontent.com/65711565/227177566-e0f400ab-f10a-4c6f-9970-5c569a8b1af4.png)
+
+### 17. 'docker attach' command to attach local standard input, output, and error streams to a running container
