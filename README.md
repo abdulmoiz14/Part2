@@ -16,6 +16,22 @@ docker pull abdulmoiz1443/finance_flask:latest
 ```
 docker run -it -e API_KEY=123 finance_flask
 ```
-**Containers logs**
-![Screenshot (24)](https://user-images.githubusercontent.com/65711565/227139615-657a66f4-dd8c-4500-93b0-416abbcfd32f.png)
+**Containers logs** <br />
+![Screenshot (24)](https://user-images.githubusercontent.com/65711565/227146566-6c23938e-f68b-45fa-8cc9-ad778c1d1d0c.png)
 
+## Step 3
+**using docker different commands.** <br />
+**'docker ps' command to list all running containers**
+```
+docker ps 
+```
+**Output** <br />
+![Screenshot (26)](https://user-images.githubusercontent.com/65711565/227149604-a81c32cc-e3e4-42d6-991f-2a0d6a31b346.png)
+
+<br />
+**'docker stop' command to stop a running container**
+```
+docker stop c6574625a79a
+```
+**output** <br />
+c6574625a79a
