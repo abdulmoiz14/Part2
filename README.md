@@ -21,19 +21,19 @@ docker run -it -e API_KEY=123 finance_flask
 
 ## Step 3
 ### using docker different commands.
-### 'docker ps' command to list all running containers
+### 1. 'docker ps' command to list all running containers
 ```
 docker ps 
 ```
 **Output** <br />
 ![Screenshot (26)](https://user-images.githubusercontent.com/65711565/227149604-a81c32cc-e3e4-42d6-991f-2a0d6a31b346.png)
-### 'docker stop' command to stop a running container
+### 2. 'docker stop' command to stop a running container
 ```
 docker stop c6574625a79a
 ```
 **Output** <br />
 c6574625a79a
-### 'docker rm' command to remove a stopped container
+### 3. 'docker rm' command to remove a stopped container
 ```
 docker rm 574625a79a
 ```
@@ -46,17 +46,26 @@ docker ps -a
 **Output**<br />
 c6574625a79a
 
-### 'docker logs' command to view the logs of a container
+### 4. 'docker logs' command to view the logs of a container
 ```
 docker logs ec1713e3f7fd
 ```
 **Output** <br />
 ![Screenshot (28)](https://user-images.githubusercontent.com/65711565/227154974-5745b77a-cf58-4dc6-8c63-a715b94d7463.png)
 
-### 'docker inspect' command to view the details of a container
+### 5. 'docker inspect' command to view the details of a container
 ```
 docker inspect finance_flask
 ```
 **Output** <br />
 ![Screenshot (29)](https://user-images.githubusercontent.com/65711565/227155543-aeac09c2-7bf2-462a-b6d4-b37cec610265.png)
 
+### 6. 'docker exec' command to execute a command inside a running container
+
+**changing value of env of a running container**
+```
+docker exec -e API_KEY=345 ec1713e3f7fd env
+```
+
+**Output** <br />
+![Screenshot (30)](https://user-images.githubusercontent.com/65711565/227160508-2fe1ae75-9c2b-464b-911d-13b210ffd1fa.png)
