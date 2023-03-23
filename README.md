@@ -182,7 +182,7 @@ docker restart ecd4320b8493
 ```
 touch README.md
 ```
-**the README.md file is well-organized, easy to read, and contains all necessary information.**
+**the README.md file must be well-organized, easy to read, and contains all necessary information.**
 
 ## Step 5: Push the codebase to the github.
 
