@@ -147,3 +147,32 @@ docker stop ef8f745129be
 ![Screenshot (39)](https://user-images.githubusercontent.com/65711565/227177566-e0f400ab-f10a-4c6f-9970-5c569a8b1af4.png)
 
 ### 17. 'docker attach' command to attach local standard input, output, and error streams to a running container
+**First attach the container**
+```
+docker attach ef8f745129be
+```
+**type exit and press enter, Then press Ctrl + C to exit from the container attach mode** <br />
+
+**Output** <br />
+![Screenshot (40)](https://user-images.githubusercontent.com/65711565/227180325-f2042e82-ac90-4ece-a2d4-42c8c300eb62.png)
+
+### 18. 'docker port' command to display the public-facing port that a container is listening on
+```
+
+```
+**Output** <br />
+
+### 19. 'docker update' command to update a container's resource limits
+**Update a container’s cpu-shares**
+```
+docker update --cpu-shares 512 ecd4320b8493
+```
+**Output** <br />
+![Screenshot (41)](https://user-images.githubusercontent.com/65711565/227185777-b0820350-99a5-4ce1-a6ac-66928aef9a1f.png)
+
+### 20. 'docker restart' command to restart a running container
+```
+docker restart ecd4320b8493
+```
+**Output** <br />
+![Screenshot (42)](https://user-images.githubusercontent.com/65711565/227186969-e2e190c3-4e16-4e9a-ae88-73bcae7d29b1.png)
