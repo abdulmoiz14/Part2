@@ -186,3 +186,8 @@ touch README.md
 
 ## Step 5: Push the codebase to the github.
 
+```
+git add --all
+git commit -m "adding codespace"
+git push -u origin main
+```
