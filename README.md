@@ -1,6 +1,6 @@
 # Assignment 1
 # Part 2: Docker Containers with Commands
-## Step 1
+## Step 1: Using the docker image from Part 1
 
 **first make directory for part 2**
 ```
@@ -11,15 +11,14 @@ cd Part2
 ```
 docker pull abdulmoiz1443/finance_flask:latest
 ```
-## Step 2
-**Run the docker container.**
+## Step 2: Run the Docker Container
 ```
 docker run -it -e API_KEY=123 finance_flask
 ```
 **Containers logs** <br />
 ![Screenshot (24)](https://user-images.githubusercontent.com/65711565/227146566-6c23938e-f68b-45fa-8cc9-ad778c1d1d0c.png)
 
-## Step 3
+## Step 3: Use Different Docker Container Commands
 ### using docker different commands.
 ### 1. 'docker ps' command to list all running containers
 ```
@@ -74,6 +73,8 @@ docker exec -e API_KEY=345 ec1713e3f7fd env
 ```
 docker attach ec1713e3f7fd
 ```
+**Output**<br />
+![Screenshot (43)](https://user-images.githubusercontent.com/65711565/227188288-37c3f64d-0ee3-4084-b1b9-19f812463289.png)
 
 ### 8. 'docker commit' command to create a new image from a container
 ```
@@ -176,3 +177,12 @@ docker restart ecd4320b8493
 ```
 **Output** <br />
 ![Screenshot (42)](https://user-images.githubusercontent.com/65711565/227186969-e2e190c3-4e16-4e9a-ae88-73bcae7d29b1.png)
+## Step 4:  Document Your Results in README.md
+**Creating README.md**
+```
+touch README.md
+```
+**the README.md file is well-organized, easy to read, and contains all necessary information.**
+
+## Step 5: Push the codebase to the github.
+
