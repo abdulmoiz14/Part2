@@ -69,3 +69,39 @@ docker exec -e API_KEY=345 ec1713e3f7fd env
 
 **Output** <br />
 ![Screenshot (30)](https://user-images.githubusercontent.com/65711565/227160508-2fe1ae75-9c2b-464b-911d-13b210ffd1fa.png)
+
+### 7. 'docker attach' command to attach to a running container
+```
+docker attach ec1713e3f7fd
+```
+
+### 8. 'docker commit' command to create a new image from a container
+```
+docker commit ef8f745129be abdulmoiz1443/finance_flask:latest
+```
+**Output** <br />
+![Screenshot (31)](https://user-images.githubusercontent.com/65711565/227167395-90560368-2765-4797-bab1-1e57ffb3f460.png)
+
+### 9. 'docker cp' command to copy files/folders between the container and the host
+
+**Coping requirements.txt from container to current directory of host**
+```
+docker cp ef8f745129be:requirements.txt .
+```
+**Output** <br />
+![Screenshot (32)](https://user-images.githubusercontent.com/65711565/227170400-a6b747cf-cab9-49db-8ec6-912b36dbea67.png)
+
+### 10. 'docker stats' command to view the resource usage of containers
+
+```
+docker stats
+```
+**Output**<br />
+![Screenshot (33)](https://user-images.githubusercontent.com/65711565/227171554-17b3118f-f4a8-44c6-b7c5-561f24c60201.png)
+
+### 11. 'docker top' command to view the running processes inside a container
+```
+docker top ef8f745129be
+```
+**Output** <br />
+![Screenshot (34)](https://user-images.githubusercontent.com/65711565/227172436-f99ca6e7-3b5e-4d23-918c-fdf69f72034c.png)
