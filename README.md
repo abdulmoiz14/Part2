@@ -159,9 +159,10 @@ docker attach ef8f745129be
 
 ### 18. 'docker port' command to display the public-facing port that a container is listening on
 ```
-
+docker port ef8f745129be
 ```
 **Output** <br />
+![Screenshot (48)](https://user-images.githubusercontent.com/65711565/227259235-bcf5726f-b14a-42ae-bc75-28e3f474b33d.png)
 
 ### 19. 'docker update' command to update a container's resource limits
 **Update a container’s cpu-shares**
