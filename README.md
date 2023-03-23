@@ -105,3 +105,30 @@ docker top ef8f745129be
 ```
 **Output** <br />
 ![Screenshot (34)](https://user-images.githubusercontent.com/65711565/227172436-f99ca6e7-3b5e-4d23-918c-fdf69f72034c.png)
+
+### 12. 'docker start' command to start a stopped container
+```
+docker start ef8f745129be
+```
+**Output** <br />
+![Screenshot (35)](https://user-images.githubusercontent.com/65711565/227173704-bda52056-f993-4b3e-9579-5b5968735320.png)
+### 13. 'docker pause' command to pause a running container
+```
+docker pause ef8f745129be
+```
+**Output** <br />
+![Screenshot (36)](https://user-images.githubusercontent.com/65711565/227174590-f2ccdb18-78b6-42d6-8a1c-522ac79d9ea7.png)
+
+### 14. 'docker unpause' command to unpause a paused container
+```
+docker unpause ef8f745129be
+```
+**Output** <br />
+![Screenshot (37)](https://user-images.githubusercontent.com/65711565/227175123-9bddb76e-8d7d-4fac-a6c3-439b3b75e3ff.png)
+
+### 15. 'docker rename' command to rename a container
+```
+docker rename ef8f745129be Finance
+```
+**Output** <br />
+![Screenshot (38)](https://user-images.githubusercontent.com/65711565/227175841-7627dea2-3553-44a8-85ed-590c836b11f6.png)
